@@ -1,51 +1,51 @@
-# 收藏夹管理器重构版 (Favorite Thing Manager Refactored)
+# Favorite Thing Manager Refactored
 
-这是收藏夹管理器的重构版本，采用了更好的代码结构和测试驱动开发。
+This is the refactored version of the Favorite Thing Manager, featuring improved code structure and test-driven development.
 
-## 改进
+## Improvements
 
-- 模块化设计，将功能分离到不同的文件中
-- 添加了单元测试
-- 更好的错误处理
-- 更清晰的代码结构
+- Modular design with functionality separated into different files  
+- Added unit tests  
+- Better error handling  
+- Clearer code structure
 
-## 功能
+## Features
 
-- 添加新的收藏物品
-- 查看所有收藏物品
-- 删除收藏物品
-- 数据持久化存储
-- 完整的单元测试覆盖
+- Add new favorite items  
+- View all favorite items  
+- Delete favorite items  
+- Persistent data storage  
+- Full unit test coverage
 
-## 文件结构
+## File Structure
 
-- `main.py` - 主程序文件
-- `favorite_things_functions.py` - 核心功能模块
-- `test_favorites.py` - 单元测试文件
+- `main.py` – Main program file  
+- `favorite_things_functions.py` – Core functionality module  
+- `test_favorites.py` – Unit test file
 
-## 使用方法
+## Usage
 
-运行主程序：
-```bash
+Run the main program:
+```
 python main.py
 ```
 
-运行测试：
-```bash
+Run the tests:
+```
 python test_favorites.py
 ```
 
-## 技术栈
+## Tech Stack
 
-- Python 3.x
-- JSON 数据存储
-- 单元测试 (unittest)
+- Python 3.x  
+- JSON data storage  
+- Unit testing (`unittest`)
 
-## 架构
+## Architecture
 
-这个重构版本采用了更好的软件工程实践：
+This refactored version adopts better software engineering practices:
 
-1. **关注点分离**: 将业务逻辑与用户界面分离
-2. **可测试性**: 所有核心功能都有对应的单元测试
-3. **可维护性**: 代码结构清晰，易于理解和修改
-4. **可扩展性**: 模块化设计使得添加新功能变得容易 
+1. **Separation of Concerns**: Business logic is separated from the user interface  
+2. **Testability**: All core features are covered by unit tests  
+3. **Maintainability**: Clean and understandable code structure  
+4. **Extensibility**: Modular design makes it easy to add new features
